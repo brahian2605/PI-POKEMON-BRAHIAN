@@ -1,0 +1,42 @@
+.nav-cont{
+    background-color:  #11c14e;
+    border-bottom: solid 2px black;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    background-image: url('../../assets/navbar.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+ .nav-img img{
+    height: 100%;
+    width: 210px;
+    margin-right: 20px;
+} 
+.nav-img{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 12vh;
+}
+.home{
+  text-decoration: none;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  size: 0px;
+  font-size: 40px;
+  color: black;
+}
+.div-links{
+    border-radius: 5px;
+    width: 600px;
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+

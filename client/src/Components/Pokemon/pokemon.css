@@ -1,0 +1,84 @@
+.container {
+  width: 400px;
+  height: 450px;
+  border: 2px solid rgb(251, 0, 0);
+  border-radius: 16px;
+  background-color: azure;
+  display: flex;
+  box-shadow: 3px 3px 10px black;
+  margin: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.container img {
+  max-width: 200px;
+  border-radius: 5px;
+  z-index: 2;
+  position: absolute;
+  top: 35%;
+  right: 30%;
+  max-width: 150px;
+
+}
+
+.div-name {
+  display: flex;
+  justify-content: center;
+
+}
+
+.name {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(243, 72, 72);
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+
+}
+
+.div-type {
+  float: right;
+  border-radius: 3px;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  margin: 20px;
+
+}
+
+.type-label {
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.tipos {
+  width: 100px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
